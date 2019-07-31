@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400i,500i&display=swap');
+
+	body{
+
+			background: url("https://i.imgur.com/0dpL5Kh.jpg");
+			background-size: cover;
+			background-position: center;
+			color: white;
+		  font-family: "Raleway" , sans-serif;
+}
+
+img{
+    			border-radius: 60%;
+          margin: auto;
+          display:inline-grid;
+}
+.class{
+  text-align: left;
+}
+.desc{
+  display: inline-block;
+}
+
+div.gallery {
+  border: 3px solid #ccc;
+  margin-right: 25px;
+
+}
+
+div.gallery:hover {
+  border: 3px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
